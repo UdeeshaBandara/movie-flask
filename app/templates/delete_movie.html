@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Movie</title>
+</head>
+<body>
+    <pre>
+    {   
+        "id": "{{ movie['_id']}}",
+        "movie_name": "{{ movie['movie_name'] }}",
+        "movie_year": {{ movie['movie_year'] }},
+        "movie_rating": {{ movie['movie_rating'] }},
+        "user_votes": "{{ movie['user_votes'] }}"
+    }
+    </pre>
+    
+    <!-- Button to trigger the delete -->
+    <button onclick="confirmDelete('{{ movie['_id'] }}')">Delete Movie</button>
+
+    <script>
+        function confirmDelete(movieId) {
+            if (confirm("Are you sure you want to delete this movie?")) {
+                // Send a DELETE request using Fetch API
+                fetch(`/movies/${movieId}/delete`, {
+                    method: 'DELETE'
+                })
+                .then(response => {
+                    if (response.ok) {
+                        alert("Movie deleted successfully!");
+                        // Optionally, you can redirect or update the UI here
+                    } else {
+                        alert("Failed to delete the movie.");
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            }
+        }
+    </script>
+</body>
+</html>

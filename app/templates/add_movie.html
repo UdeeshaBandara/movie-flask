@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Movie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Add New Movie</h1>
+    {% if success_message %}
+        <p style="color: green;">{{ success_message }}</p>
+    {% endif %}
+    {% if error_message %}
+        <p style="color: red;">{{ error_message }}</p>
+    {% endif %}
+    <form action="{{ url_for('add_new_movie') }}" method="POST">
+        <label for="movie_name">Movie Name:</label>
+        <input type="text" name="movie_name" id="movie_name" required>
+
+        <label for="movie_year">Movie Year:</label>
+        <input type="number" name="movie_year" id="movie_year" required>
+
+        <label for="movie_rating">Movie Rating:</label>
+        <input type="number" name="movie_rating" id="movie_rating" step="0.1" required>
+
+        <label for="user_votes">User Votes:</label>
+        <input type="text" name="user_votes" id="user_votes" required>
+
+        <button type="submit">Add Movie</button>
+    </form>
+</body>
+</html>

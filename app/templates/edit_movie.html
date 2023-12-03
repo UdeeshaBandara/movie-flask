@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Movie</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+            padding: 20px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .alert {
+            padding: 10px;
+            margin-top: 20px;
+            border: 1px solid #4caf50;
+            border-radius: 4px;
+            color: #4caf50;
+            background-color: #e7f6e7;
+        }
+    </style>
+</head>
+<body>
+    <h1>Edit Movie</h1>
+
+    {% if success_message %}
+        <div class="alert">
+            {{ success_message }}
+        </div>
+    {% endif %}
+
+    <form method="POST" action="/movies/{{ movie.id }}/edit">
+        <!-- Add form fields for editing a movie -->
+        <label for="movie_name">Movie Name:</label>
+        <input type="text" id="movie_name" name="movie_name" value="{{ movie.movie_name }}" required>
+
+        <label for="movie_year">Year:</label>
+        <input type="number" id="movie_year" name="movie_year" value="{{ movie.movie_year }}" required>
+
+        <label for="movie_rating">Rating:</label>
+        <input type="number" id="movie_rating" name="movie_rating" step="0.1" value="{{ movie.movie_rating }}" required>
+
+        <label for="user_votes">User Votes:</label>
+        <input type="text" id="user_votes" name="user_votes" value="{{ movie.user_votes }}" required>
+
+        <button type="submit">Update Movie</button>
+    </form>
+
+    <p>{{ message }}</p>
+</body>
+</html>

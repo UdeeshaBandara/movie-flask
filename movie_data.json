@@ -1,0 +1,224 @@
+[
+  {
+    "movie_name": "The Shop Around the Corner",
+    "movie_year": 1940,
+    "movie_rating": 8,
+    "user_votes": "37K"
+  },
+  {
+    "movie_name": "Anatomy of a Murder",
+    "movie_year": 1959,
+    "movie_rating": 8,
+    "user_votes": "70K"
+  },
+  {
+    "movie_name": "Slumdog Millionaire",
+    "movie_year": 2008,
+    "movie_rating": 8,
+    "user_votes": "867K"
+  },
+  {
+    "movie_name": "Brief Encounter",
+    "movie_year": 1945,
+    "movie_rating": 8,
+    "user_votes": "43K"
+  },
+  {
+    "movie_name": "Killers of the Flower Moon",
+    "movie_year": 2023,
+    "movie_rating": 8,
+    "user_votes": "78K"
+  },
+  {
+    "movie_name": "The Imitation Game",
+    "movie_year": 2014,
+    "movie_rating": 8,
+    "user_votes": "807K"
+  },
+  {
+    "movie_name": "Butch Cassidy and the Sundance Kid",
+    "movie_year": 1969,
+    "movie_rating": 8,
+    "user_votes": "224K"
+  },
+  {
+    "movie_name": "Dune",
+    "movie_year": 2021,
+    "movie_rating": 8,
+    "user_votes": "725K"
+  },
+  {
+    "movie_name": "La La Land",
+    "movie_year": 2016,
+    "movie_rating": 8,
+    "user_votes": "640K"
+  },
+  {
+    "movie_name": "The Avengers",
+    "movie_year": 2012,
+    "movie_rating": 8,
+    "user_votes": "1.4M"
+  },
+  {
+    "movie_name": "What Ever Happened to Baby Jane?",
+    "movie_year": 1962,
+    "movie_rating": 8,
+    "user_votes": "60K"
+  },
+  {
+    "movie_name": "Casino Royale",
+    "movie_year": 2006,
+    "movie_rating": 8,
+    "user_votes": "682K"
+  },
+  {
+    "movie_name": "The Bourne Ultimatum",
+    "movie_year": 2007,
+    "movie_rating": 8,
+    "user_votes": "651K"
+  },
+  {
+    "movie_name": "Magnolia",
+    "movie_year": 1999,
+    "movie_rating": 8,
+    "user_votes": "324K"
+  },
+  {
+    "movie_name": "The King's Speech",
+    "movie_year": 2010,
+    "movie_rating": 8,
+    "user_votes": "700K"
+  },
+  {
+    "movie_name": "Black Swan",
+    "movie_year": 2010,
+    "movie_rating": 8,
+    "user_votes": "805K"
+  },
+  {
+    "movie_name": "Rain Man",
+    "movie_year": 1988,
+    "movie_rating": 8,
+    "user_votes": "536K"
+  },
+  {
+    "movie_name": "Sin City",
+    "movie_year": 2005,
+    "movie_rating": 8,
+    "user_votes": "786K"
+  },
+  {
+    "movie_name": "The Martian",
+    "movie_year": 2015,
+    "movie_rating": 8,
+    "user_votes": "900K"
+  },
+  {
+    "movie_name": "The Message",
+    "movie_year": 1976,
+    "movie_rating": 8.1,
+    "user_votes": "50K"
+  },
+  {
+    "movie_name": "The Pursuit of Happyness",
+    "movie_year": 2006,
+    "movie_rating": 8,
+    "user_votes": "546K"
+  },
+  {
+    "movie_name": "The Legend of 1900",
+    "movie_year": 1998,
+    "movie_rating": 8,
+    "user_votes": "68K"
+  },
+  {
+    "movie_name": "Dogville",
+    "movie_year": 2003,
+    "movie_rating": 8,
+    "user_votes": "156K"
+  },
+  {
+    "movie_name": "Kind Hearts and Coronets",
+    "movie_year": 1949,
+    "movie_rating": 8,
+    "user_votes": "39K"
+  },
+  {
+    "movie_name": "Zootopia",
+    "movie_year": 2016,
+    "movie_rating": 8,
+    "user_votes": "531K"
+  },
+  {
+    "movie_name": "Secrets & Lies",
+    "movie_year": 1996,
+    "movie_rating": 8,
+    "user_votes": "46K"
+  },
+  {
+    "movie_name": "Who's Afraid of Virginia Woolf?",
+    "movie_year": 1966,
+    "movie_rating": 8,
+    "user_votes": "79K"
+  },
+  {
+    "movie_name": "The Graduate",
+    "movie_year": 1967,
+    "movie_rating": 8,
+    "user_votes": "284K"
+  },
+  {
+    "movie_name": "Planet of the Apes",
+    "movie_year": 1968,
+    "movie_rating": 8,
+    "user_votes": "189K"
+  },
+  {
+    "movie_name": "Sweet Smell of Success",
+    "movie_year": 1957,
+    "movie_rating": 8,
+    "user_votes": "35K"
+  },
+  {
+    "movie_name": "The Straight Story",
+    "movie_year": 1999,
+    "movie_rating": 8,
+    "user_votes": "95K"
+  },
+  {
+    "movie_name": "The Night of the Hunter",
+    "movie_year": 1955,
+    "movie_rating": 8,
+    "user_votes": "95K"
+  },
+  {
+    "movie_name": "12 Monkeys",
+    "movie_year": 1995,
+    "movie_rating": 8,
+    "user_votes": "638K"
+  },
+  {
+    "movie_name": "Papillon",
+    "movie_year": 1973,
+    "movie_rating": 8,
+    "user_votes": "136K"
+  },
+  {
+    "movie_name": "Blood Diamond",
+    "movie_year": 2006,
+    "movie_rating": 8,
+    "user_votes": "575K"
+  },
+  {
+    "movie_name": "Blade Runner 2049",
+    "movie_year": 2017,
+    "movie_rating": 8,
+    "user_votes": "631K"
+  },
+  {
+    "movie_name": "Her",
+    "movie_year": 2013,
+    "movie_rating": 8,
+    "user_votes": "651K"
+  }
+]

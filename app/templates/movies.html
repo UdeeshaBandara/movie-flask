@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Movies</title>
+    <style>
+        <!-- Your CSS styles -->
+    </style>
+</head>
+<body>
+    <h1>All Movies</h1>
+    <ul>
+        {% for movie in movies %}
+            <li>
+                <pre>
+{
+    "id": "{{ movie['_id'] }}",
+    "movie_name": "{{ movie['movie_name'] }}",
+    "movie_year": {{ movie['movie_year'] }},
+    "movie_rating": {{ movie['movie_rating'] }},
+    "user_votes": "{{ movie['user_votes'] }}"
+}
+                </pre>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
