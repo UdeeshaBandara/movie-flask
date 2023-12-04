@@ -1,4 +1,6 @@
 Flask==2.0.0
 Werkzeug==2.0.2
 Flask-MongoEngine
-Flask-PyMongo
+flask_pymongo
+flask_bcrypt
+flask_login
